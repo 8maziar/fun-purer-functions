@@ -2,4 +2,4 @@ const removeLastNumber = (arr) => {
   return arr.slice(0, -1);
 };
 
-module.exports = { removeLastNumber, raiseSalaries };
+module.exports = removeLastNumber;

@@ -1,6 +1,6 @@
-const { removeLastNumber, raiseSalaries } = require("../pure");
+const removeLastNumber = require("../pure");
 
-describe.skip("should return a new array of numbers with the last one removed", () => {
+describe("should return a new array of numbers with the last one removed", () => {
   test("return empty array given empty array", () => {
     const actual = [];
     const expected = [];
